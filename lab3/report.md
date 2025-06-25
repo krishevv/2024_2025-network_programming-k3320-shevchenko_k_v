@@ -63,7 +63,7 @@ Protocols and ports	TCP: 8000
 3. Создадим файл netbox_conf_galaxy.yml (токен генерируется в приложении netbox)
 ```
 plugin: netbox.netbox.nb_inventory
-api_endpoint: http://34.135.118.73:8000
+api_endpoint: http://127.0.0.1:8000
 token: 5092c2f60cded6678ed87c10dc1d9f811d5342ed
 validate_certs: True
 config_context: False
