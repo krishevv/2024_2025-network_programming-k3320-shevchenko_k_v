@@ -35,8 +35,17 @@ Date of finished: 24.06.2025
 3. Создадим WireGuard Client на втором CHR и проверим доступ до сервера 10.0.0.1 и между клиентами 10.0.0.2 10.0.0.3 Пропингуем сервер с клиентов, чтобы протестировать связь.
    
 CHR1 
+
+
+
 ![image](https://github.com/user-attachments/assets/15135d0a-b800-41cf-a610-2a1f7a394563)
+
+
+
 CHR2
+
+
+
 
 ![image](https://github.com/user-attachments/assets/72db41f4-72fc-4a9b-b827-c6b2d2647f7e)
 
