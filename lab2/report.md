@@ -106,7 +106,7 @@ collections_paths = /home/sh_kri2003/.ansible/collections:/usr/share/ansible/col
     - name: Set up user credentials
       community.routeros.command:
         commands:
-          - /user add name=arina group=full password=111
+          - /user add name=kri group=full password=111
       register: user_config
 
     - name: Enable NTP client and configure server
@@ -201,7 +201,7 @@ ok: [chr1] => {
 ok: [chr2] => {
 "router_config.stdout_lines": [
     [
-        "# 2024-11-17 20:15:13 by RouterOS 7.18.1",
+        "# 2025-06-24 20:15:13 by RouterOS 7.18.1",
         "# software id = ",
         "#",
         "/interface bridge",
