@@ -135,7 +135,7 @@ collections_paths = /home/sh_kri2003/.ansible/collections:/usr/share/ansible/col
       debug:
         var: router_config.stdout_lines
 ```
-5. Запустим его и получим следующий результат:
+6. Запустим его и получим следующий результат:
 
 ```
 sh_kri2003@network-prog:~$ ansible-playbook chr_conf.yml
@@ -247,7 +247,7 @@ chr2                       : ok=5    changed=4    unreachable=0    failed=0    s
 
 Проверим на клиенте, что всё выролнено верно.
 
-![скрин1](https://github.com/user-attachments/assets/236099a3-5fa2-43d7-bb5d-4b1b289e0595)
+![image](https://github.com/user-attachments/assets/236099a3-5fa2-43d7-bb5d-4b1b289e0595)
 
 
 ### Вывод
